@@ -1,0 +1,25 @@
+
+.cuerpo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornsilk;
+}
+.presentacion {
+    margin-top: 70px;
+    border: 2px solid black;
+    text-align: center;
+}
+.header_text {
+    border: 5px solid black;
+    color: white;
+    background-image: url(./visual_resources/top.jpg);   
+    text-align: center; 
+}
+.contenido {
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.image {
+    border-radius: 100px;
+}
