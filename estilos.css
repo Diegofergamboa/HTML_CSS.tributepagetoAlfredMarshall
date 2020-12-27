@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.body_class {
+
+}
+.header_class {
+    border: 5px solid rgb(155, 153, 153);
+    display: flex;
+    height: 190px;
+    margin: 5px;
+    background-image: url(./visual_resources/top.jpg);
+}
+/* Primeros dos items del header */
+.header_class__item__figure {
+    display: block;
+    position: relative;
+    font-size: 4em;
+    top: 0.5em;
+    left: 0.5em;
+    color: rgb(187, 180, 180);
+}
+.header_class__item__span {
+    font-size: 2em;
+    color: rgb(100, 88, 88);
+    display: inline;
+    position: relative;
+    left: 3em;
+    top: 1.5em;
+}
+
+/* Items finales de navegacion del header */
+
+.header_class__item {
+    color: rgb(187, 180, 180);
+    font-size: 3.5em;
+    text-align: center;
+}
+.header_class__firstitem {
+    border: 7px solid grey;
+    position: relative;
+    top: 0.2em;
+    left: 12em;
+}
+
+.header_class__seconditem {
+    border: 7px solid grey;
+    color: rgb(187, 180, 180);
+    position: relative;
+    left: 12em;
+    top: 0.5em;
+    bottom: 0.2em;
+}
